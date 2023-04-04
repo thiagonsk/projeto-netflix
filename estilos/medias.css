@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+
+    body, html {
+        font-size: 1.1rem;
+    }
+
+    header {
+        font-size: 1.1rem; 
+    }
+
+    #plan {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .lg-conteiner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #language-box {
+        background-color: #3030306c;
+        width: 140px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #language-box  select {
+        width: 90%;
+        font-size: 1rem;
+        opacity: 1;
+    }
+
+    .lg-conteiner img {
+        height: 100px;
+        width: 200px;
+        margin-right: 50px;
+    }
+
+    .register h1 {
+        font-family: netflix b, Arial, Helvetica, sans-serif;
+        font-size: 2.8rem;
+    }
+    
+    #access{
+       width: 40%;
+    }
+
+    .img-conteiner, img {
+        width: 410px;
+        height: 340px;
+        position: relative;
+        z-index: 5;
+    }
+
+    #perguntas  h1 {
+        font-size: 2.9rem;
+    }
+
+    #perguntas li{
+        font-size: 2.9rem;
+    }
+
+    #perguntas a{
+        font-size: 1.4rem;
+    }
+
+    #topics {
+        grid-template-columns: repeat(auto-fit, 290px);
+    }
+
+    footer.conteiner a{
+        font-size: 0.8rem;
+    }
+
+    .align {
+        width: 95%;
+        height: 90%;
+        margin: 0.3rem auto;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-left{
+        flex-direction: row-reverse;
+    }
+}
+
+/*web*/
+@media screen and (min-width: 1224px) {
+    body, html {
+        font-size: 1.2rem;
+    }
+    /* login */
+    #language-box {
+        width: 150px;
+    }
+
+    /*articles*/
+    .description {
+        text-align: left;
+    }
+
+    .description h2{
+        font-size: 2.5rem;
+    }
+
+    .img-conteiner, img {
+        width: 540px;
+        height: 400px;
+        position: relative;
+        z-index: 5;
+    }
+
+    #lilbox { 
+        width: 50%;
+        height: 20%;
+        top: 70%;
+        left: 22%;
+    }
+    /*footer*/
+    #topics {
+        grid-template-columns: repeat(auto-fit, 340px);
+    }
+
+    footer #language-box {
+        width: 150px;
+    }
+
+    /*conteiners*/
+    .align {
+        width: 77%;
+        height: 90%;
+        margin: 0.3rem auto;
+    }
+}
